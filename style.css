@@ -1,0 +1,50 @@
+body {
+    font-family: "Martian Mono", monospace;
+    color: #ffd900;
+    background-color: #252525;
+}
+.navbar-custom {
+    background-color: rgb(58, 57, 57);
+}
+
+.navbar-custom .navbar-brand{
+    color:#E23D2E;
+    font-family: "Martian Mono", monospace;
+    font-size: 2rem;
+    text-transform: uppercase
+}
+.navbar-custom .nav-link{
+    font-family: "Martian Mono", monospace;;
+    color:#ffd900;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
+.nav-link:hover {
+    text-decoration:underline black;
+
+}
+.btn-custom {
+    background-color: #252525;
+    color: #E23D2E;
+}
+.btn-custom:hover {
+    background-color: #E23D2E;
+    color: #ffd900;
+
+}
+.card {
+    border: #a30000 solid 2px;
+}
+.card-body {
+    background: grey;
+}
+footer {
+    background-color: rgb(48, 8, 8);
+    border: #000000 solid;
+}
+.footerlink {
+    color: #E23D2E;
+    text-decoration: none;
+    font-size: larger;
+}
