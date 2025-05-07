@@ -40,11 +40,31 @@ body {
     background: grey;
 }
 footer {
-    background-color: rgb(48, 8, 8);
+    background: linear-gradient(to right, #6b0b02, rgb(53, 0, 0));
     border: #000000 solid;
 }
 .footerlink {
     color: #E23D2E;
+    text-decoration: none;
+    font-size: larger;
+    
+}
+.bio {
+    background: radial-gradient(#252525 60%, #E23D2E );
+}
+.biotitle {
+    color:#ffd900;
+    font-family: "Martian Mono", monospace;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration:underline dashed;
+}
+.ctext {
+    color:#a1a1a1;
+    font-size: 1rem;
+}
+.bio a {
+    color: #f55e50;
     text-decoration: none;
     font-size: larger;
 }
