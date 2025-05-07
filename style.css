@@ -46,8 +46,7 @@ footer {
 .footerlink {
     color: #E23D2E;
     text-decoration: none;
-    font-size: larger;
-    
+    font-size: 2.5vh;
 }
 .bio {
     background: radial-gradient(#252525 60%, #E23D2E );
