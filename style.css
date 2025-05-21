@@ -1,110 +1,35 @@
 body {
-    font-family: "Martian Mono", monospace;
-    color: #ffd900;
-    background-color: #252525;
-    
+   background-image: url(graybg.png);
+    background-size: cover;
+
+    font-size: large;
+    text-align:center ;
+    color:rgb(185, 236, 185) ;
+
 }
 .navbar-custom {
-    background-color: rgb(58, 57, 57);
+    background-color: rgb(106, 129, 92);
 }
-
-.navbar-custom .navbar-brand{
-    color:#E23D2E;
-    font-family: "Martian Mono", monospace;
-    font-size: 2rem;
-    text-transform: uppercase
+.nav-item {
+    background-color: rgba(121, 212, 29,1) ;
+    border-radius: 1rem;
+    border: 0.5vh black solid;
 }
-.navbar-custom .nav-link{
-    font-family: "Martian Mono", monospace;;
-    color:#ffd900;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    margin-right: 1.5rem;
-}
-.nav-link:hover {
-    text-decoration:underline black;
-
-}
-.btn-custom {
-    background-color: #252525;
-    color: #E23D2E;
-}
-.btn-custom:hover {
-    background-color: #E23D2E;
-    color: #ffd900;
-
+.hero{
+    background-color:  rgba(106, 129, 92, 0.9);
+    border: 0.5vh solid black;
+    text-decoration: underline dimgray;
 }
 .card {
-    border: #a30000 solid 2px;
+    background-color: rgba(106, 129, 92, 0.3);
 }
-.cbt {
-    background: grey;
+.card-title {
+    font-size: 3vh;
+    color: #65c73f;
 }
-
-
-.bio {
-    background: radial-gradient(#252525 60%, #E23D2E );
+.card-text {
+    color: green;
 }
-.biotitle {
-    color:#ffd900;
-    font-family: "Martian Mono", monospace;
-    font-size: 2rem;
-    text-transform: uppercase;
-    text-decoration:underline dashed;
-}
-.ctext {
-    color:#a1a1a1;
-    font-size: 1rem;
-}
-.bio a {
-    color: #f55e50;
-    text-decoration: none;
-    font-size: larger;
-}
-.navbar-trench {
-    background-color: #b39802;
-}
-.navbar-trench .navbar-brand {
-    color:#000000;
-    font-family: "Martian Mono", monospace;
-    font-size: 2rem;
-    text-transform: uppercase
-}
-.navbar-trench .nav-link{
-    font-family: "Martian Mono", monospace;
-    color:#ffd900;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    margin-right: 1.5rem;
-}
-.trenchcard {
-    border: olive solid 0.5vh;
-}
-.trenchtitle {
-    font-size: 4rem;
-    text-align: center;
-}
-.trench {
-    background: #000000;
-    background: linear-gradient(120deg,rgba(0, 0, 0, 1) 0%, rgba(128, 128, 0, 1) 94%, rgba(237, 221, 83, 1) 100%);;
-
-}
-.trenchtext {
-    color: #a1a1a1;
-}
-.foot {
-    background: linear-gradient(to right, #6b0b02, rgb(53, 0, 0));
-    border: #000000 solid;
-}
-.footerlink {
-    color: #E23D2E;
-    text-decoration: none;
-    font-size: 20px;
-    /* vh and rem were a bit odd and i didnt bother to figure it out thats why its in px */
-}
-.footertrench {
-    color: #ffd900;
-    text-decoration: none;
-    font-size: 20px;
-
+.faq a {
+    color: #65c73f;
 }
